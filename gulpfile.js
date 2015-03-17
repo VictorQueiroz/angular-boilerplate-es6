@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var livereload = require('gulp-livereload');
 
 var paths = {
-  scripts: ['src/scripts/**/*.js']
+  scripts: ['app/**/*.js']
 };
 
 gulp.task('scripts', function () {

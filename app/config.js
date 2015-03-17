@@ -1,5 +1,5 @@
 System.config({
-  baseURL: '/js',
+  baseURL: '/scripts',
   paths: {
     'angular': '/lib/angular/angular.js'
   },
