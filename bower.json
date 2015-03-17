@@ -1,0 +1,20 @@
+{
+  "name": "angular-boilerplate-es6",
+  "main": "index.js",
+  "version": "1.0.0",
+  "authors": [
+    "Victor Queiroz <victorcqueirozg@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.0-build.3912+sha.170ff9a"
+  },
+  "private": true
+}
