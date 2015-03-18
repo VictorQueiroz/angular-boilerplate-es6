@@ -5,21 +5,22 @@ module.exports = function(config) {
   config.set({
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
-    basePath: '',
+    basePath: './',
 
 
     systemjs: {
       configFile: 'app/config.js',
-      files: {
+      files: [
         'public/lib/angular/angular.js',
         'public/lib/angular-mocks/angular-mocks.js',
         'app/scripts/**.js'
-      },
+      ],
       config: {
         paths: {
           'angular-mocks': 'public/lib/angular-mocks/angular-mocks.js'
         }
-      }
+      },
+      testFileSuffix: '_test.js'
     },
 
 
@@ -31,7 +32,9 @@ module.exports = function(config) {
     plugins: [
       'karma-jasmine',
       'karma-systemjs',
-      'karma-phantomjs-launcher'
+      'karma-phantomjs-launcher',
+      'karma-firefox-launcher',
+      'karma-chrome-launcher'
     ],
 
 
@@ -76,7 +79,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
