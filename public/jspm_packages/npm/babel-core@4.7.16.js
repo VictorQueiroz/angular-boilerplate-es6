@@ -1,0 +1,1 @@
+module.exports = require("npm:babel-core@4.7.16/lib/babel/api/node");

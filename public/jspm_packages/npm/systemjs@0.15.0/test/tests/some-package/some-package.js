@@ -1,0 +1,2 @@
+/* */ 
+exports.isPackage = true;

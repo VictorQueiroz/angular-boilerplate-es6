@@ -1,0 +1,106 @@
+{
+  "name": "babel-core",
+  "description": "Turn ES6 code into readable vanilla ES5 with source maps",
+  "version": "4.7.16",
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "homepage": "https://babeljs.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel"
+  },
+  "main": "lib/babel/api/node.js",
+  "browser": {
+    "./lib/babel/api/register/node.js": "./lib/babel/api/register/browser.js"
+  },
+  "keywords": [
+    "harmony",
+    "classes",
+    "modules",
+    "let",
+    "const",
+    "var",
+    "es6",
+    "transpile",
+    "transpiler",
+    "6to5",
+    "babel"
+  ],
+  "gitHead": "d28583bea103ebcda3faaf48da6fff67b7cff9c0",
+  "bugs": {
+    "url": "https://github.com/babel/babel/issues"
+  },
+  "_id": "babel-core@4.7.16",
+  "scripts": {},
+  "_shasum": "bd006f1011b0767f4df35f83c28e7ea761f0ef8d",
+  "_from": ".",
+  "_npmVersion": "2.6.0",
+  "_nodeVersion": "1.4.1",
+  "_npmUser": {
+    "name": "sebmck",
+    "email": "sebmck@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "bd006f1011b0767f4df35f83c28e7ea761f0ef8d",
+    "tarball": "http://registry.npmjs.org/babel-core/-/babel-core-4.7.16.tgz"
+  },
+  "jspm": {},
+  "registry": "npm",
+  "format": "cjs",
+  "ignore": [
+    "node_modules"
+  ],
+  "map": {},
+  "dependencies": {
+    "acorn-babel": "acorn-babel@0.11.1-38",
+    "ast-types": "ast-types@~0.7.0",
+    "chalk": "chalk@^1.0.0",
+    "commander": "commander@^2.6.0",
+    "convert-source-map": "convert-source-map@^0.5.0",
+    "core-js": "core-js@^0.6.1",
+    "debug": "debug@^2.1.1",
+    "detect-indent": "detect-indent@^3.0.0",
+    "estraverse": "estraverse@^1.9.1",
+    "esutils": "esutils@^1.1.6",
+    "fs-readdir-recursive": "fs-readdir-recursive@^0.1.0",
+    "globals": "globals@^6.2.0",
+    "is-integer": "is-integer@^1.0.4",
+    "js-tokens": "js-tokens@1.0.0",
+    "leven": "leven@^1.0.1",
+    "line-numbers": "line-numbers@0.2.0",
+    "lodash": "lodash@^3.2.0",
+    "output-file-sync": "output-file-sync@^1.1.0",
+    "path-is-absolute": "path-is-absolute@^1.0.0",
+    "private": "private@^0.1.6",
+    "regenerator-babel": "regenerator-babel@0.8.13-2",
+    "regexpu": "regexpu@^1.1.2",
+    "repeating": "repeating@^1.1.2",
+    "shebang-regex": "shebang-regex@^1.0.0",
+    "slash": "slash@^1.0.0",
+    "source-map": "source-map@^0.4.0",
+    "source-map-support": "source-map-support@^0.2.9",
+    "to-fast-properties": "to-fast-properties@^1.0.0",
+    "trim-right": "trim-right@^1.0.0",
+    "path": "github:jspm/nodelibs-path@^0.1.0",
+    "fs": "github:jspm/nodelibs-fs@^0.1.0",
+    "process": "github:jspm/nodelibs-process@^0.1.0",
+    "systemjs-json": "github:systemjs/plugin-json@^0.1.0",
+    "os": "github:jspm/nodelibs-os@^0.1.0",
+    "buffer": "github:jspm/nodelibs-buffer@^0.1.0",
+    "util": "github:jspm/nodelibs-util@^0.1.0",
+    "assert": "github:jspm/nodelibs-assert@^0.1.0",
+    "events": "github:jspm/nodelibs-events@^0.1.0",
+    "stream": "github:jspm/nodelibs-stream@^0.1.0",
+    "string_decoder": "github:jspm/nodelibs-string_decoder@^0.1.0",
+    "tty": "github:jspm/nodelibs-tty@^0.1.0",
+    "net": "github:jspm/nodelibs-net@^0.1.0"
+  }
+}

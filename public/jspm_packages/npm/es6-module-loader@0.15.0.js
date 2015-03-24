@@ -1,0 +1,1 @@
+module.exports = require("npm:es6-module-loader@0.15.0/lib/index-traceur");

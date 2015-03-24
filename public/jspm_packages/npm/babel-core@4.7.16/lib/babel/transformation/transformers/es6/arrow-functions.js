@@ -1,0 +1,17 @@
+/* */ 
+"use strict";
+var _interopRequireWildcard = function(obj) {
+  return obj && obj.__esModule ? obj : {"default": obj};
+};
+exports.ArrowFunctionExpression = ArrowFunctionExpression;
+exports.__esModule = true;
+var t = _interopRequireWildcard(require("../../../types/index"));
+var check = t.isArrowFunctionExpression;
+exports.check = check;
+function ArrowFunctionExpression(node) {
+  t.ensureBlock(node);
+  node._aliasFunction = "arrow";
+  node.expression = false;
+  node.type = "FunctionExpression";
+  return node;
+}
